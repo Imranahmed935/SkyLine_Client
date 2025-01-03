@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/logo.png'
+import { MdOutlinePhoneInTalk, MdOutlineWatchLater } from "react-icons/md";
 
 const Navbar = () => {
   const links = (
@@ -14,7 +15,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 lg:w-11/12 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -49,7 +50,20 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <div className="flex gap-2">
+            <div className="text-2xl"><MdOutlineWatchLater/></div>
+            <div>
+                <h1 className="text-xl">Working hour</h1>
+                <p className="text-gray-500">Mon-Sun : 9am-10pm</p>
+            </div>
+        </div>
+        <div className="flex gap-2">
+        <div className="text-2xl"><MdOutlinePhoneInTalk /></div>
+            <div>
+             <h1 className="text-xl">Call Center</h1>
+                <p className="text-gray-500">123-456-7890</p>
+            </div>
+        </div>
       </div>
     </div>
   );
