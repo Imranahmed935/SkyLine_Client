@@ -7,6 +7,7 @@ const Home = () => {
         <div className='min-h-screen lg:w-11/12 mx-auto'>
             <Banner/>
             <BookForm/>
+            {/* <AboutUs/> */}
         </div>
     );
 };

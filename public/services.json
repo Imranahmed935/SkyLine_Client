@@ -1,0 +1,96 @@
+[
+    {
+      "id": 1,
+      "helicopterName": "SkyRider",
+      "model": "H125",
+      "capacity": 6,
+      "insurance": "Fully Insured",
+      "rentalPricePerDay": "$1200/day",
+      "availability": "Book Now",
+      "image": "https://i.ibb.co.com/vX9QVTn/model-03.webp",
+      "vehicleFacility": {
+        "television": true,
+        "toilet": true,
+        "fullAC": true,
+        "socket240V": true,
+        "internetConnection": true,
+        "audioSystem": true
+      },
+      "vehicleDescription": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "seats": 45,
+        "length": "10.48 m",
+        "width": "3 m",
+        "height": "4 m",
+        "fuelType": "Diesel",
+        "oilTankCapacity": "260L",
+        "engineCapacity": "4 - 6L",
+        "transmission": "Manual",
+        "year": 2020,
+        "waterTank": "50.0 gal"
+      }
+    },
+    {
+      "id": 2,
+      "helicopterName": "AeroKing",
+      "model": "Bell 429",
+      "capacity": 8,
+      "insurance": "Fully Insured",
+      "rentalPricePerDay": "$1500/day",
+      "availability": "Book Now",
+      "image": "https://i.ibb.co.com/6Z67PsL/model-02.webp",
+      "vehicleFacility": {
+        "television": true,
+        "toilet": true,
+        "fullAC": true,
+        "socket240V": true,
+        "internetConnection": true,
+        "audioSystem": true
+      },
+      "vehicleDescription": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "seats": 45,
+        "length": "10.48 m",
+        "width": "3 m",
+        "height": "4 m",
+        "fuelType": "Diesel",
+        "oilTankCapacity": "260L",
+        "engineCapacity": "4 - 6L",
+        "transmission": "Manual",
+        "year": 2020,
+        "waterTank": "50.0 gal"
+      }
+    },
+    {
+      "id": 3,
+      "helicopterName": "CloudMaster",
+      "model": "AW139",
+      "capacity": 15,
+      "insurance": "Fully Insured",
+      "rentalPricePerDay": "$2000/day",
+      "availability": "Book Now",
+      "image": "https://i.ibb.co.com/PcvkDmx/model-01.webp",
+      "vehicleFacility": {
+        "television": true,
+        "toilet": true,
+        "fullAC": true,
+        "socket240V": true,
+        "internetConnection": true,
+        "audioSystem": true
+      },
+      "vehicleDescription": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "seats": 45,
+        "length": "10.48 m",
+        "width": "3 m",
+        "height": "4 m",
+        "fuelType": "Diesel",
+        "oilTankCapacity": "260L",
+        "engineCapacity": "4 - 6L",
+        "transmission": "Manual",
+        "year": 2020,
+        "waterTank": "50.0 gal"
+      }
+    }
+  ]
+  
